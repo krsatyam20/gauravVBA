@@ -1,0 +1,172 @@
+
+vba: Language /Macro 
+
+Ms-Office 
+	word
+	excel(VBA)
+	power point
+	access
+	
+	
+	Excel Data Manupulation 
+			Data Internal (Excel Sheet)
+				  External (Data Improt from Out side )
+						Another excel Workbook
+								Text file
+								Web
+								DataBase(my-access
+										mysql (Free )
+										ms-sql(Micro Soft Sql)/SQL(Paid)
+										
+ 
+			Function(Predefine function )
+					hlookup()
+					sum()
+					count()
+ 
+			Function (User Define function/Command/Macro)(VBA)
+					GauravSUM(2,4) Excel Sheet/WorkBook
+
+Sql(Container which is hold data )
+		Str
+		Insert
+		Select
+		Update
+		Delete
+				Command(Query)
+
+Str. query lanuage 
+
+
+
+excel Sheet     vba 
+
+ sql/DataBase 
+ 
+ 
+ 
+ How to Install VBA?
+	=>Pre Install
+	=>Alt+F11
+		goto Devloper menu and click visual basic 
+ How to use 
+ 
+ 
+ Simple Program 
+ 
+ 
+ VB: Language
+		=>Rules & Law 
+		=>Translator
+				Interprator:Line By Line Translat(VBA)
+				Compiler :Whole Line translate at a time 
+		=>Comment:Which is ignored by 	Translator(Interprator) is called comment 
+					Our beter understand we use comment
+					
+		=>Data/Value :Data is a just like raw material
+				Data type :
+						Number 
+							Integer(0-9)
+							Float(0.0-9.9)
+							double(0.00-9.99)
+						String
+							Char :Single Letter is called char within a couts ''/""
+									'9' :Char
+									 9 : integer
+							string 
+						           Combination of char is called string
+									'kumar'
+									'kumar9'
+									'kumar@'
+									
+									
+									
+		=>Variable : is a memory location where we will can store our 
+		data/value								
+		
+		
+How To Create variable in vba :
+
+		Dim VariableName(Whic is user define) as a Datatype
+		Note: Here "Dim" is a resureved Key in VBA
+		Dim x as a integer
+		Dim x as a float
+		Dim x as a double
+		
+		Dim x as a char
+		Dim x as a string 
+		
+		Variable define Correct Way 
+			
+			=>First letter of variable should be small
+				Ex:
+				studentName
+			=>Not Use any speical char as first letter
+				Ex:
+				@name(Wrong)
+				name@
+				student_name
+				student-name
+			=>Not Use any number as first letter
+				Ex:
+					9k(Wrong)
+					k9(Right)
+
+=>Store /Assign value on Variable
+
+	Dim x as integer
+
+	x=10 (Use assignment operator we can store our value)
+
+
+How to Use Store Value 
+
+			=>Dispaly 
+					MsgBox()(Open PopUp )
+			=> Manupulation of value using any operator 
+				Airthmetic operator
+					+
+					-
+					/
+					*
+					=
+					
+Question A1: WAP to input roll number, name and marks of a student in 5 subjects and calculate the total and average marks. Display all the values.marks
+Question A2: WAP to find out the square of a given number.
+Question A3: WAP to input a number and print its cube.	
+Question A4: WAP to input employee code, name and basic salary of an employee and calculate the following values:
+		HRA					40 % of basic salary
+		DA					10 % of basic salary
+		CCA					5 % of basic salary
+		GS					Basic + HRA + DA + CCA
+		PF					10 % of GS
+		IT					10 % of GS
+		NS					GS – (PF + IT)
+Display all the values.
+
+Question A5: WAP to swap the values of two integer variables
+(a)	Using extra variable
+(b)	Without using extra variable
+
+
+
+
+
+
+
+
+
+
+		
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
