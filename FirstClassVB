@@ -150,7 +150,25 @@ Question A5: WAP to swap the values of two integer variables
 
 
 
+https://github.com/krsatyam20/gauravVBA
 
+
+==========1-03-2020======================
+
+
+Get Input/value from user
+Value show in excell sheet
+
+
+
+Get Input/value from user
+		InputBox("Please enter your basic salary")
+
+
+
+Value show in excell sheet
+
+	cells(1,1...).value=anyValue
 
 
 
@@ -167,6 +185,6 @@ Question A5: WAP to swap the values of two integer variables
 						
 						
 						
-						
+						 
 						
 						
